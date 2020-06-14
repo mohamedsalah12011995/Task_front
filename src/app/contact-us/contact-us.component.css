@@ -1,0 +1,13 @@
+.example-card {
+  max-width: 280px;
+  display: inline-block;
+  margin-left: 19%;
+  margin-top: 73px;
+  text-align: center;
+      }
+    
+    .example-header-image {
+      background-image: url('../../assets//images/egy.jpg');
+
+      background-size: cover;
+    }

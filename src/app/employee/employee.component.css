@@ -1,0 +1,488 @@
+.user .itemContainer .itemaddress h1 {
+  font-size: 17px;
+  align-items: center;
+  display: flex;
+}
+.user .itemContainer .itemaddress h1 i{
+  margin-left: 5px;
+}
+.itemImage button, .itemImage label {
+  width: 40%;
+}
+.itemImageBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.itemImage label {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.itemImage label i{
+  margin-left: 5px;
+}
+
+
+.item {
+  background-color: #eee;
+}
+
+.itemContainer {
+  padding: 10px 0px 0px;
+  border: 1px solid #d6d6d6;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  .itemContainer .itemaddress {
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+    .itemContainer .itemaddress h1 {
+      font-size: 24px;
+    }
+
+      .itemContainer .itemaddress h1 i {
+        margin-left: 10px;
+        /* color: #d80000; */
+      }
+
+.itemBtnSave {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+  .itemBtnSave button {
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: bold;
+    /* border: 1px solid #ccc; */
+    /*border-radius: 3px;*/
+    /* width: 25%; */
+    padding: 0px 10px;
+    font-size: 18px;
+    color: #4c4a4b;
+    margin-left: 15px;
+    outline: 0;
+    transition: all 0.5s;
+  }
+  .itemBtnSave button:nth-child(1):hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  .itemBtnSave button:nth-child(1):hover i, .itemBtnSave button:nth-child(2):hover i
+  ,.itemBtnSave button:nth-child(3):hover i {
+    color: #fff !important;
+  }
+  .itemBtnSave button:nth-child(2):hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .itemBtnSave button:nth-child(3):hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+    .itemBtnSave button i {
+      font-weight: 100;
+      margin-right: 0px;
+      line-height: 1px;
+      transition: all 0.5s;
+    }
+
+.itemContainer .container {
+  /* border-bottom: 3px solid #a33939; */
+  border-top: 3px solid #a33939;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  text-align: right;
+}
+
+
+
+  .itemDetails h2, .itemImage h2, .itemList h2 {
+    color: #484848;
+    font-size: 21px;
+  }
+
+    .itemDetails h2 i, .itemImage h2 i, .itemList h2 i {
+      color: #c8505a;
+    }
+
+  .itemDetails input {
+    box-shadow: none;
+    /* margin-top: 5px;
+    width: 87%;
+    height: 35px;
+    padding-right:  10px;
+    border-radius:  5px;
+    border:  1px solid #c2c2c2; */
+  }
+
+
+  .itemDetails label {
+    width: 100%;
+    /*height: 45px;
+    line-height: 45px;
+    margin-bottom: 15px;*/
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4b4c;
+  }
+
+  .itemDetails select {
+    width: 87%;
+    margin-left: 3px;
+    height: 37px;
+    color: #757575;
+    display: inline-block;
+    /* border-radius: 5px;
+    border:  1px solid #c2c2c2; */
+  }
+
+
+  .itemDetails label i {
+    color: #cb505a;
+    font-size: 30px;
+  }
+
+  .itemDetails div span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4b4c;
+  }
+
+  .itemDetails div button:hover {
+    color: #fff;
+    background-color: #cb505a;
+  }
+
+  .itemDetails div button {
+    width: 10%;
+    height: 33px;
+    border: 1px solid #888;
+    background-color: #fff;
+    color: #cf555a;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 3px;
+  }
+
+  .itemDetails .modal-header .close {
+    margin-left: 0px;
+    background-color: transparent;
+    width: 62px;
+    height: 62px;
+    line-height: 0;
+    padding-left: 0;
+    border: none;
+  }
+
+    .itemDetails .modal-header .close i {
+      font-size: 20px;
+    }
+
+  .itemDetails .modal-header {
+    border-bottom: 3px solid #a33939;
+  }
+
+  .itemDetails .modal-footer {
+    border-top: 3px solid #a33939;
+  }
+
+/* .itemPrice h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4d4b4c;
+}
+
+  .itemPrice h3 i {
+    color: #cb505a;
+    font-size: 30px;
+  }
+
+.itemPrice input {
+  width: 100%;
+  height: 35px;
+  font-size: 13px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.itemPrice label {
+  width: 49%;
+} */
+
+
+
+  .cat input {
+    width: 100%;
+  }
+
+  .cat select {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+
+.catPrint select, .catPrint input {
+  width: 80%;
+}
+
+.catPrint .catBtn button {
+  width: 70% !important;
+}
+
+.cat .catBtn {
+  width: 35%;
+  text-align: center;
+}
+
+.cat label button {
+  width: 5%;
+  height: 35px;
+  margin-right: 5px;
+  border-radius: 0px;
+}
+
+button.catBtn {
+  cursor: pointer;
+  width: 11% !important;
+  height: 45px !important;
+  line-height: 45px;
+  /* border: 1px solid #c2c2c2; */
+  color: #4c4a4b;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px !important;
+  margin-bottom: 15px;
+  transition: all 0.5s;
+}
+
+  button.catBtn i {
+    font-size: 17px;
+    transition: all 0.5s;
+  }
+
+  button.catBtn:hover i {
+    color: #fff !important;
+  }
+
+  button.catBtn:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+/* .cat table tr td, .cat table tr th {
+  padding: 0;
+  text-align: center;
+  border-right: 1px solid #c2c2c2;
+  border-left: 1px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.cat table {
+  width: 100%;
+  border: 1px solid #c2c2c2;
+} */
+
+  .cat table input, .cat table select {
+    width: 95%;
+    /* margin-top: 15px; */
+  }
+
+  /* .cat table button {
+    margin-top: 15px;
+    border: 1px solid #c2c2c2;
+    color: #a33939;
+    background-color: #fff;
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px !important;
+    transition: all 0.5s;
+  } */
+
+    /* .cat table button i {
+      font-size: 17px;
+    } */
+
+    .cat table button:hover i {
+      color: #a33939;
+    }
+
+    /* .cat table button:hover {
+      background-color: #a33939;
+      color: #fff;
+    } */
+
+.itemImage {
+  text-align: center;
+}
+
+  .itemImage input {
+    display: none;
+  }
+
+  .itemImage button, .itemImage label {
+    text-align: center;
+    color: #4b494a;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 35px;
+    border-radius: 3px;
+  }
+
+  .itemImage img {
+    width: 150px;
+    height: 150px;
+    margin: 0px 20%;
+  }
+
+  .itemImage .uploadImgItm {
+    width: 48%;
+    /*margin-left: 5px;*/
+  }
+
+  .itemImage button i, .itemImage label i {
+    color: #cb505a;
+  }
+
+  .itemImage button:hover, .itemImage label:hover {
+    background-color: #cb505a;
+    color: #fff;
+  }
+
+    .itemImage button:hover i, .itemImage label:hover i {
+      color: #fff;
+    }
+
+.itemIngredients {
+  margin-top: 10px;
+}
+
+  .itemIngredients label {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4b4c;
+  }
+
+    .itemIngredients label i {
+      color: #cf555a;
+    }
+
+
+
+  .itemList .listSearch {
+    position: relative;
+  }
+
+    .itemList .listSearch i {
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      border-bottom-right-radius: 7px;
+      border-top-right-radius: 7px;
+      text-align: center;
+      line-height: 36px;
+      color: #902431;
+    }
+
+    .itemList .listSearch input {
+      width: 100%;
+      height: 35px;
+      padding-right: 35px;
+      /*border-radius: 5px;*/
+      border: 1px solid #c2c2c2;
+      outline: none;
+    }
+
+.listItm {
+  margin-top: 12px;
+  border: 1px solid #c6c6c6;
+  /*border-radius: 5px;*/
+  height: 50.4vh;
+  overflow-y: auto;
+  /* box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14),
+              0 3px 14px 2px rgba(0,0,0,.12); */
+}
+.listItm .actionLink{
+  height: 35px;
+}
+/* width */
+.listItm .example-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.listItm .example-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+.listItm .example-container::-webkit-scrollbar-thumb {
+  background: #888;
+
+}
+/* Handle on hover */
+.listItm .example-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+  .listItm button {
+    cursor: pointer;
+    float: left;
+    border: none;
+    border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    background-color: #fff;
+    height: 35px !important;
+    width: 12% !important;
+  }
+
+    .listItm button:hover {
+      background-color: #d14141;
+      border-color: #c8505a;
+      color: #fff;
+    }
+
+  .listItm label {
+    width: 88%;
+    height: 100%;
+    line-height: 34px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #c6c6c6;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /*border-top-left-radius: 5px;
+      border-top-right-radius: 5px;*/
+  }
+
+    .listItm label span {
+      float: left;
+    }
+
+    .listItm label:hover {
+      background-color: #d14141;
+      color: #fff;
+    }
+    .itemPrice table td.mat-footer-cell .mat-form-field{
+      width: 150px;
+      text-align: center;
+    }
+
+
